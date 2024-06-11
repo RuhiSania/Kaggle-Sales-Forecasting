@@ -1,8 +1,10 @@
 
 Business Problem Overview:
+
 This project involves predicting quarterly sales for a steel manufacturer with various business clients in Auto, Metal Fabrication, and Infrastructure. The dataset includes company-specific financial indicators and general economic indicators. The goal is to accurately predict sales using a variety of machine learning models and techniques.
 
 Dataset:
+
 The dataset consists of the following features:
 
 ID: Unique identifier for each row.
@@ -18,7 +20,9 @@ Region: Region where the company operates.
 Industry: Industry area of the company.
 Sales: Target variable, sales for the given quarter.
 Economic Indicators: Including Consumer Sentiment, Interest Rate, PMI, Money Supply, NationalEAI, EastEAI, WestEAI, SouthEAI, and NorthEAI.
+
 Approach and Submissions:
+
 Here’s a summary of the various models and approaches used, along with their respective performance metrics and insights:
 
 Basic Linear Regression Model: Replacing missing values with median, resulted in:
